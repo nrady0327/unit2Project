@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Unit 2 Game Project</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="code.js"></script>
+</head>
+<body>
+<div id="wrapper">
+
+<h1>Rock &bull; Paper &bull; Scissors &bull; Lizard &bull; Spock</h1>
+<br>
+
+<div id="rulesSection">
+<h2>Game Rules:</h2>
+<br>
+<ol>
+    <li>Scissors cuts Paper</li>
+    <li>Paper covers Rock</li>
+    <li>Rock crushes Lizard</li>
+    <li>Lizard poisons Spock</li>
+    <li>Spock smashes Scissors</li>
+    <li>Scissors decapitates Lizard</li>
+    <li>Lizard eats Paper</li>
+    <li>Paper disproves Spock</li>
+    <li>Spock vaporizes Rock</li>
+    <li>Rock crushes Scissors</li>
+</ol>
+</div>
+<br>
+
+<div id="selectionTab">
+    <h2>User Selection choices:</h2>
+    <br>
+
+   <!--grab image for rock,paper,scissor,lizard and spock-->
+
+    <img id="rockPhoto" src="rock.jpg" height="300" width="250" alt="rock"/>
+    <img id="paperPhoto" src="paper.jpg" height="300" width="250" alt="paper"/>
+    <img id="scissorPhoto" src="scissors.jpg" height="300" width="250" alt="scissors"/>
+    <img id="lizardPhoto" src="lizard.jpg" height="300" width="250" alt="lizard"/>
+    <img id="spockPhoto" src="spock.jpg" height="300" width="250" alt="spock"/>
+
+
+
+
+
+</div>
+
+
+<p>You have selected <span id="userOutput"></span>, while the computer has chosen <span id="computerOutput"></span>.</p>
+    <p><span id="winnerOutput"></span> has won the round.</p>
+    <p><span id="game"></span></p>
+
+
+</div>
+</body>
+</html>
